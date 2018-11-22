@@ -8,7 +8,6 @@ puts "Podaj B:"
 b = gets.chomp.to_i
 puts "Podaj C:"
 c = gets.chomp.to_i
-
 d = (b * b) - 4 * a * c # delta
 p = (-b) / (2 * a)
 q = -(d) / (4 * a)
